@@ -34,17 +34,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int main()
-{
-	char s1[] = "Hola amigo00000000";
-	char s2[] = "Hola amigo00000005";
-	int i;
-	int j;
-	
-	i=ft_strncmp(s1,s2,8);
-	j = strncmp(s1,s2,8);
-	printf("%i",j);
-	printf("%i",i);
-	return 0;
-}*/
